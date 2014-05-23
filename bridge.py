@@ -113,7 +113,11 @@ class BridgeBotProtocol(irc.IRCClient):
         if self.piping_user == user and not self.idle:
             print 'bot:', msg.strip()
             self.omegle_bot.say(msg.strip())
-            return
+            try:
+                to, msg_rest = [s.strip() for s in msg.split(':')]
+            except ValueError:
+                return  # no colon
+            return 
 
         try:
             to, msg_rest = [s.strip() for s in msg.split(':')]
