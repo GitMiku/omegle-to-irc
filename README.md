@@ -16,13 +16,13 @@ Turns off popcorn
 Connect to a stranger  
 `omeglebot: /connect`
 
-Disconnect from the current stranger
+Disconnect from the current stranger  
 `omeglebot: /disconnect`
 
 Direct the stranger's responses to a specific user, this user will not need to mention omeglebot to send a message  
 `omeglebot: /pipe username`
 
-Unpipe with:
+Unpipe with:  
 `omeglebot: /unpipe`
  
 If you need to enter a captcha use  
