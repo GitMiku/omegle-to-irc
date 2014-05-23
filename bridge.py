@@ -108,6 +108,7 @@ class BridgeBotProtocol(irc.IRCClient):
         self.goIdle()
 
     def privmsg(self, user, channel, msg):
+        #Removed
         user = user.split('!')[0]
         try:
             to, msg_rest = [s.strip() for s in msg.split(':')]
