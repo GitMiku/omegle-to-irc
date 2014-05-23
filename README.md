@@ -28,5 +28,5 @@ Unpipe with:
 If you need to enter a captcha use  
 `omeglebot: /captcha`
 
-Display the available commands
+Display the available commands  
 `omeglebot: /help`
