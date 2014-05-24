@@ -6,7 +6,7 @@ This is an irc bot that allows communication with strangers on Omegle.
 I made it to get acquainted with Twisted.
 
 ### Install  
-First you need to install python and the requirements
+First you need to install python and then the source dependencies
 ```
 sudo apt-get install python
 git clone https://github.com/simon-weber/omegle-to-irc.git
